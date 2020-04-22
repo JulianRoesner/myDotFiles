@@ -1,0 +1,7 @@
+Flask
+jupyter
+pandas
+numpy
+anaconda
+Beautifulsoup
+
