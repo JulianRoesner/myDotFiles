@@ -17,3 +17,11 @@ sh brew.sh
 ##############################################################################
 echo "Installing python libraries using pip..."
 pip3 install -r requirements.txt
+
+##############################################################################
+##                                 Settings                                 ##
+##############################################################################
+echo "Moving setting files into home directory"
+mv bash/.bashrc ~/.bashrc
+mv bash/.bash_profile ~/bash_profile
+mv .vimrc ~/.vimrc
