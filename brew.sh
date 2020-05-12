@@ -1,5 +1,11 @@
 #!/usr/bin/sh
 
+# Make sure we’re using the latest Homebrew.
+brew update
+
+# Upgrade any already-installed formulae.
+brew upgrade
+
 #install languages
 echo "Installing programming languages..."
 brew install python3
@@ -19,3 +25,6 @@ brew install heroku
 echo "Installing git and related tools..."
 brew install git
 brew install git-extras
+
+# Remove outdated versions from the cellar.
+brew cleanup

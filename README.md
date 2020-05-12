@@ -10,3 +10,7 @@ Brew will install all the applications listed in brew.sh
 
 ## Pip
 Pip will install all the everything in requirements.txt
+
+
+# Acknowledgements
+I took some inspirations form [https://github.com/mathiasbynens/dotfiles](Mathias Bynens') collection of dotfiles. 
