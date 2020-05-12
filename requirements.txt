@@ -4,4 +4,4 @@ pandas
 numpy
 anaconda
 Beautifulsoup
-
+pipenv
