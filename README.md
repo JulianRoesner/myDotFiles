@@ -9,7 +9,7 @@ The setup.sh will install all necessary applications and scripts. It will also a
 Brew will install all the applications listed in brew.sh
 
 ## Pip
-Pip will install all the everything in requirements.txt
+Pip will install everything in requirements.txt
 
 
 # Acknowledgements
