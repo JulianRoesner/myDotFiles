@@ -13,4 +13,4 @@ Pip will install everything in requirements.txt
 
 
 # Acknowledgements
-I took some inspirations form [Mathias Bynens'](https://github.com/mathiasbynens/dotfiles) collection of dotfiles. 
+I took some inspirations from [Mathias Bynens'](https://github.com/mathiasbynens/dotfiles) collection of dotfiles. 
