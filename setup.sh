@@ -8,9 +8,8 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 
-#install languages
+#install languages and other tools
 sh brew.sh
-
 
 ##############################################################################
 ##                                   Pip                                    ##
@@ -25,3 +24,8 @@ echo "Moving setting files into home directory"
 mv bash/.bashrc ~/.bashrc
 mv bash/.bash_profile ~/bash_profile
 mv .vimrc ~/.vimrc
+
+##############################################################################
+##                                   Mac                                    ##
+##############################################################################
+sh mac/mac.sh
