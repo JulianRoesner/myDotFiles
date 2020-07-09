@@ -15,4 +15,4 @@ Pip will install everything in requirements.txt
 This is to install everything related to MacOS (e.g. Xcode command line tools) and tune the settings of MacOS.
 
 # Acknowledgements
-I took some inspirations form [Mathias Bynens'](https://github.com/mathiasbynens/dotfiles) collection of dotfiles. 
+I took some inspirations from [Mathias Bynens'](https://github.com/mathiasbynens/dotfiles) collection of dotfiles. 
