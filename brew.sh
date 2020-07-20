@@ -20,6 +20,7 @@ brew install pip3
 brew install node
 brew install sublime-text
 brew install heroku
+brew install swiftlint
 
 #install git and tools
 echo "Installing git and related tools..."
