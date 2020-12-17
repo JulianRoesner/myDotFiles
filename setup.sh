@@ -23,6 +23,8 @@ pip3 install -r requirements.txt
 echo "Moving setting files into home directory"
 mv bash/.bashrc ~/.bashrc
 mv bash/.bash_profile ~/bash_profile
+mv zsh/.zshrc ~/.zshrc
+mv zsh/.zsh_profile ~/zsh_profile
 mv .vimrc ~/.vimrc
 
 ##############################################################################
