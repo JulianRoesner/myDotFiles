@@ -1,7 +1,7 @@
 #Set alias
 alias cd..='cd ..'
 alias ..='cd ..'
-alias ...='.. ..'
+alias ...='cd ..; cd ..'
 alias cdCloud="cd ~/iCloud"
 
 # Use sublime instead of subl
