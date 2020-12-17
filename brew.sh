@@ -14,7 +14,12 @@ brew install javascript
 brew install haskell
 brew cask install Java
 
-#install programs
+#install git and tools
+echo "Installing git and related tools..."
+brew install git
+brew install git-extras
+
+#install cli programs
 echo "Installing programming applications..."
 brew install pip3
 brew install node
@@ -22,10 +27,9 @@ brew install sublime-text
 brew install heroku
 brew install swiftlint
 
-#install git and tools
-echo "Installing git and related tools..."
-brew install git
-brew install git-extras
+#install programms with cask 
+brew cask install slack 
+brew install --cask pycharm-ce
 
 # Remove outdated versions from the cellar.
 brew cleanup
