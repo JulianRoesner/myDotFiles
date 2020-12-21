@@ -30,7 +30,7 @@ brew install swiftlint
 #install programms with cask 
 brew install --cask slack 
 brew install --cask pycharm-ce
-brew install --cask chrome
+brew install --cask google-chrome
 brew install --cask firefox
 
 #install docker
