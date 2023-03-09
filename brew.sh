@@ -25,7 +25,15 @@ brew install pip3
 brew install node
 brew install sublime-text
 brew install heroku
+brew install node
 brew install swiftlint
+
+#install cli infrastructure tools
+brew install terraform
+brew install kubernetes-cli
+brew install kubectx
+brew install lefthook 
+brew install talisman
 
 #install programms with cask 
 brew install --cask slack 
