@@ -19,6 +19,13 @@ echo "Installing git and related tools..."
 brew install git
 brew install git-extras
 
+#install
+echo "Installing gpg and related tools..."
+brew install gpg
+brew install pinentry-mac
+echo "pinentry-program $(which pinentry-mac)" >>  ~/.gnupg/gpg-agent.conf
+gpg-connect-agent reloadagent /bye
+
 #install cli programs
 echo "Installing programming applications..."
 brew install pip3
