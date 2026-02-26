@@ -42,6 +42,7 @@ brew install kubectx
 brew install kubeseal
 brew install lefthook 
 brew install talisman
+brew install openvpn
 
 #install programms with cask 
 brew install --cask slack 
