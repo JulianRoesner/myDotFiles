@@ -28,7 +28,7 @@ gpg-connect-agent reloadagent /bye
 
 #install cli programs
 echo "Installing programming applications..."
-brew install pip3
+brew install uv
 brew install node
 brew install sublime-text
 brew install heroku
@@ -39,6 +39,7 @@ brew install swiftlint
 brew install terraform
 brew install kubernetes-cli
 brew install kubectx
+brew install kubeseal
 brew install lefthook 
 brew install talisman
 
@@ -49,6 +50,7 @@ brew install --cask google-chrome
 brew install --cask firefox
 
 #install docker
+brew install colima
 ./docker.sh
 
 # Remove outdated versions from the cellar.
